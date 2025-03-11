@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 import Card from "./Card";
 
 const LeftSidebar = () => {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true); // Sidebar open by default
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false); // Sidebar open by default
   const sidebarRef = useRef(null); // Sidebar reference
   const cardContainerRef = useRef(null); // Card container reference
 

@@ -4,7 +4,7 @@ import { gsap } from "gsap";
 const RightSidebar = () => {
   const [activeTab, setActiveTab] = useState("boxInfo");
   const containerRef = useRef(null);
-  const [sectionShow, setSectionShow] = useState(true);
+  const [sectionShow, setSectionShow] = useState(false);
 
   const handleTabChange = (tab) => {
     if (activeTab !== tab) {
